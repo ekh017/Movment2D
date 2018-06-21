@@ -1,4 +1,4 @@
-﻿Log file open, 06/20/18 16:56:26
+﻿Log file open, 06/21/18 20:25:56
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Movment2D
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-214127471) SRandInit(-214127471).
+LogInit: Display: RandInit(-919368609) SRandInit(-919368609).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.752554
+LogStats: Stats thread started at 6.972088
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  2.242s to configure plugins.
+LogStreaming: Display: Took  3.375s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,563 +219,624 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: G:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.20-19.56.30:084][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.20-19.56.30:084][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.20-19.56.30:224][  0]LogInit: Computer: ERICK-HIGA-PC
-[2018.06.20-19.56.30:224][  0]LogInit: User: user
-[2018.06.20-19.56.30:224][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.06.20-19.56.30:224][  0]LogInit: High frequency timer resolution =3.117781 MHz
-[2018.06.20-19.56.30:225][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.06.20-19.56.30:225][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.20-19.56.30:225][  0]LogMemory: Process Physical Memory: 273.14 MB used, 273.14 MB peak
-[2018.06.20-19.56.30:225][  0]LogMemory: Process Virtual Memory: 261.91 MB used, 261.91 MB peak
-[2018.06.20-19.56.30:225][  0]LogMemory: Physical Memory: 6257.50 MB used,  10031.99 MB free, 16289.49 MB total
-[2018.06.20-19.56.30:225][  0]LogMemory: Virtual Memory: 632.13 MB used,  10031.99 MB free, 134217728.00 MB total
-[2018.06.20-19.56.30:820][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.06.20-19.56.30:820][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.06.20-19.56.31:731][  0]LogStreaming: Display: Took  0.906s to EndInitTextLocalization.
-[2018.06.20-19.56.31:749][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.20-19.56.32:178][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.20-19.56.32:178][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.20-19.56.32:880][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.20-19.56.32:924][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 380 Series' (Feature Level 11_0)
-[2018.06.20-19.56.32:924][  0]LogD3D11RHI:       2023/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.06.20-19.56.32:925][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.20-19.56.32:925][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.20-19.56.32:925][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.20-19.56.32:934][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.20-19.56.32:934][  0]LogD3D11RHI:     GPU DeviceId: 0x6939 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.20-19.56.32:935][  0]LogWindows: EnumDisplayDevices:
-[2018.06.20-19.56.32:935][  0]LogWindows:    0. 'AMD Radeon (TM) R9 380 Series' (P:1 D:1)
-[2018.06.20-19.56.32:935][  0]LogWindows:    1. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.06.20-19.56.32:935][  0]LogWindows:    2. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.06.20-19.56.32:935][  0]LogWindows:    3. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.06.20-19.56.32:936][  0]LogWindows:    4. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.06.20-19.56.32:936][  0]LogWindows:    5. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
-[2018.06.20-19.56.32:936][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2018.06.20-19.56.32:936][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 380 Series
-[2018.06.20-19.56.32:936][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.9.1 (internal:22.19.676.0, unified:22.19.676.0)
-[2018.06.20-19.56.32:936][  0]LogD3D11RHI:      Driver Date: 9-5-2017
-[2018.06.20-19.56.32:937][  0]LogRHI: Texture pool is 1416 MB (70% of 2023 MB)
-[2018.06.20-19.56.32:993][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.20-19.56.33:164][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.06.20-19.56.33:205][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../GitHub/Movment2D/Intermediate/Shaders/WorkingDirectory/1500/).
-[2018.06.20-19.56.33:216][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/71F5419D4EC60B4816B04992A06D6F94/'.
-[2018.06.20-19.56.34:213][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.20-19.56.34:256][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.20-19.56.34:279][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.20-19.56.34:298][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.20-19.56.34:319][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.20-19.56.34:338][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.20-19.56.34:358][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.20-19.56.34:373][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.20-19.56.34:382][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.20-19.56.34:400][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.20-19.56.34:416][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.20-19.56.34:433][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.20-19.56.34:449][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.20-19.56.34:464][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.20-19.56.34:480][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.20-19.56.34:524][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.20-19.56.34:524][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.20-19.56.34:551][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.20-19.56.34:554][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.20-19.56.34:688][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.20-19.56.34:709][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.20-19.56.34:725][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.20-19.56.34:741][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.20-19.56.34:766][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.20-19.56.34:782][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.20-19.56.34:782][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.20-19.56.35:581][  0]LogXGEController: Cleaning working directory: C:/Users/user/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.06.20-19.56.35:581][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.20-19.56.35:593][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.20-19.56.35:594][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.20-19.56.38:531][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.20-19.56.38:867][  0]LogDerivedDataCache: Loaded boot cache 0.34s 74MB C:/Users/user/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.20-19.56.38:867][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.20-19.56.38:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/Movment2D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.20-19.56.38:868][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.20-19.56.38:868][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/Movment2D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.20-19.56.38:868][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.20-19.56.38:981][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.20-19.56.38:996][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.20-19.56.38:996][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.20-19.56.38:996][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.20-19.56.39:045][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.20-19.56.39:080][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.20-19.56.39:135][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.20-19.56.39:136][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.20-19.56.41:783][  0]LogAssetRegistry: FAssetRegistry took 0.0405 seconds to start up
-[2018.06.20-19.56.46:081][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.20-19.56.48:562][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.20-19.56.48:655][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.20-19.56.48:656][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.20-19.56.48:674][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.20-19.56.48:674][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.20-19.56.48:674][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.20-19.56.49:322][  0]LogNetVersion: Movment2D , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3326228246)
-[2018.06.20-19.56.53:979][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.118099 seconds
-[2018.06.20-19.56.54:005][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.20-19.56.54:005][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.06.20-19.56.54:005][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.20-19.57.18:468][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.20-19.57.18:525][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.20-19.57.19:432][  0]SourceControl: Source control is disabled
-[2018.06.20-19.57.19:432][  0]SourceControl: Source control is disabled
-[2018.06.20-19.57.19:528][  0]SourceControl: Source control is disabled
-[2018.06.20-19.57.19:583][  0]SourceControl: Source control is disabled
-[2018.06.20-19.57.20:942][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.20-19.57.21:186][  0]LogOcInput: OculusInput pre-init called
-[2018.06.20-19.57.21:604][  0]LogEngine: Initializing Engine...
-[2018.06.20-19.57.21:632][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.20-19.57.21:637][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.20-19.57.21:637][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.20-19.57.22:136][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.20-19.57.22:234][  0]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.06.20-19.57.22:259][  0]LogInit: FAudioDevice initialized.
-[2018.06.20-19.57.22:341][  0]LogDerivedDataCache: Saved boot cache 0.08s 74MB C:/Users/user/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.20-19.57.22:355][  0]LogInit: Texture streaming: Enabled
-[2018.06.20-19.57.22:445][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.20-19.57.22:598][  0]LogInit: Transaction tracking system initialized
-[2018.06.20-19.57.22:901][  0]BlueprintLog: New page: Editor Load
-[2018.06.20-19.57.23:813][  0]LocalizationService: Localization service is disabled
-[2018.06.20-19.57.24:322][  0]LogConsoleResponse: Display: 
-[2018.06.20-19.57.25:688][  0]LogFileCache: Scanning file cache for directory 'G:/GitHub/Movment2D/Content/' took 0.02s
-[2018.06.20-19.57.25:688][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.20-19.57.25:688][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.20-19.57.25:688][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.20-19.57.25:688][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.20-19.57.25:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.20-19.57.29:016][  0]SourceControl: Source control is disabled
-[2018.06.20-19.57.29:056][  0]Cmd: MAP LOAD FILE="../../../../GitHub/Movment2D/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.20-19.57.29:075][  0]LightingResults: New page: Lighting Build
-[2018.06.20-19.57.29:164][  0]MapCheck: New page: Map Check
-[2018.06.20-19.57.29:165][  0]LightingResults: New page: Lighting Build
-[2018.06.20-19.57.29:487][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022731a9e500, Size=240, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
-[2018.06.20-19.57.29:520][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022731a9e500, Size=240
-[2018.06.20-19.57.29:520][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022731a9e500, Size=240, Default__Cube_C Function /Engine/Transient.REINST_Cube_C_3:ExecuteUbergraph_Cube
-[2018.06.20-19.57.29:540][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002271bff9c00, Size=240, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
-[2018.06.20-19.57.29:759][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002271bf789a0, Size=72, Default__Minimal_Default_C Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default
-[2018.06.20-19.57.29:761][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002271bf789a0, Size=72
-[2018.06.20-19.57.29:761][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000227260f4400, Size=72, Default__Minimal_Default_C Function /Engine/Transient.REINST_Minimal_Default_C_7:ExecuteUbergraph_Minimal_Default
-[2018.06.20-19.57.29:763][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022726833ba0, Size=72, Default__Minimal_Default_C Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default
-[2018.06.20-19.57.30:154][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.20-19.57.30:443][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.20-19.57.30:493][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022731a9e500, Size=240
-[2018.06.20-19.57.30:493][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000227260f4400, Size=72
-[2018.06.20-19.57.30:508][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.20-19.57.30:558][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.11ms to complete.
-[2018.06.20-19.57.30:558][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.515
-[2018.06.20-19.57.31:080][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.06.20-19.57.31:616][  0]LogCollectionManager: Loaded 0 collections in 0.005068 seconds
-[2018.06.20-19.57.31:763][  0]LogFileCache: Scanning file cache for directory 'G:/GitHub/Movment2D/Saved/Collections/' took 0.01s
-[2018.06.20-19.57.31:763][  0]LogFileCache: Scanning file cache for directory 'G:/GitHub/Movment2D/Content/Developers/user/Collections/' took 0.01s
-[2018.06.20-19.57.31:763][  0]LogFileCache: Scanning file cache for directory 'G:/GitHub/Movment2D/Content/Collections/' took 0.01s
-[2018.06.20-19.57.31:763][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.06.20-19.57.31:787][  0]LogContentBrowser: Native class hierarchy populated in 0.0213 seconds. Added 2452 classes and 558 folders.
-[2018.06.20-19.57.31:877][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.06.20-19.57.32:739][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.06.20-19.57.32:789][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.06.20-19.57.33:089][  0]LogSlate: Took 0.017982 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.20-19.57.33:122][  0]LogSlate: Took 0.027128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.20-19.57.33:177][  0]LogSlate: Took 0.012347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.20-19.57.33:501][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.06.20-19.57.33:940][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.06.20-19.57.33:940][  0]LogLoad: (Engine Initialization) Total time: 76.89 seconds
-[2018.06.20-19.57.33:940][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.20-19.57.34:020][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.20-19.57.34:184][  0]LogSlate: Took 0.016340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.20-19.57.34:262][  1]LogAssetRegistry: Asset discovery search completed in 52.5004 seconds
-[2018.06.20-19.57.34:264][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.20-19.57.34:264][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
-[2018.06.20-19.57.37:503][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.20-19.57.37:583][361]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.20-19.57.37:612][361]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.20-19.57.37:613][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.20-19.57.37:621][361]PIE: New page: PIE session: Minimal_Default (Jun 20, 2018, 1:57:37 PM)
-[2018.06.20-19.57.37:621][361]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.06.20-19.57.37:640][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018928s)
-[2018.06.20-19.57.37:641][361]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.20-19.57.37:641][361]LogPlayLevel: PIE: World Init took: (0.000720s)
-[2018.06.20-19.57.37:641][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.019825s)
-[2018.06.20-19.57.37:668][361]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.06.20-19.57.37:678][361]LogInit: FAudioDevice initialized.
-[2018.06.20-19.57.37:764][361]LogLoad: Game class is 'FunctionalTestGameMode'
-[2018.06.20-19.57.37:799][361]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.20-16.57.37
-[2018.06.20-19.57.37:809][361]LogWorld: Bringing up level for play took: 0.022525
-[2018.06.20-19.57.37:841][361]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
-[2018.06.20-19.57.37:846][361]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.645
-[2018.06.20-19.57.37:847][361]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.20-19.58.18:749][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.20-19.58.18:821][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.20-19.58.21:304][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.20-19.58.21:660][547]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.20-19.58.22:185][547]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.06.20-19.58.22:640][547]LogUObjectGlobals: Created PersistentFrame Addr=0x000002276eac2590, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.20-19.58.22:641][547]LogUObjectGlobals: Created PersistentFrame Addr=0x000002276eac2588, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.20-19.58.23:374][547]LogSlate: Took 0.009387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.06.20-19.58.23:895][548]LogSlate: Took 0.018922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.06.20-20.08.15:833][700]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.035
-[2018.06.20-20.08.16:042][700]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/Cube] ([1] browsable assets)...
-[2018.06.20-20.08.16:076][700]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/Cube.Cube]
-[2018.06.20-20.08.16:076][700]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Cube]
-[2018.06.20-20.08.16:076][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Cube" FILE="../../../../GitHub/Movment2D/Saved/Autosaves/Game/StarterContent/Blueprints/Cube_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.06.20-20.08.16:266][700]LogSavePackage: Save=184.47ms
-[2018.06.20-20.08.16:266][700]LogSavePackage: Moving '../../../../GitHub/Movment2D/Saved/Cube_Auto1C2CB00964ED62E210EC5928ED71A61E4.tmp' to '../../../../GitHub/Movment2D/Saved/Autosaves/Game/StarterContent/Blueprints/Cube_Auto1.uasset'
-[2018.06.20-20.08.16:280][700]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Movment2D/Saved/Autosaves/Game/StarterContent/Blueprints/Cube_Auto1.uasset
-[2018.06.20-20.08.16:280][700]LogFileHelpers: Auto-saving content packages took 0.447
-[2018.06.20-20.22.50:863][267]LogHttp: Warning: 0000022755887880: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.06.20-20.22.50:863][267]LogHttp: Warning: 0000022755887880: libcurl info message cache 0 (Connection 3 seems to be dead!)
-[2018.06.20-20.22.50:863][267]LogHttp: Warning: 0000022755887880: libcurl info message cache 1 (Closing connection 3)
-[2018.06.20-20.22.50:863][267]LogHttp: Warning: 0000022755887880: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2018.06.20-20.22.50:864][267]LogHttp: Warning: 0000022755887880: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.06.20-20.22.50:864][267]LogHttp: Warning: 0000022755887880: libcurl info message cache 4 (Closing connection 4)
-[2018.06.21-00.50.13:482][509]LogSlate: Window 'Cube*' being destroyed
-[2018.06.21-00.50.13:490][509]LogSlate: Window 'Cube*' being destroyed
-[2018.06.21-00.50.14:863][655]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.21-00.50.14:890][655]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.21-00.50.14:891][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.21-00.50.14:892][655]PIE: New page: PIE session: Minimal_Default (Jun 20, 2018, 6:50:14 PM)
-[2018.06.21-00.50.14:892][655]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.06.21-00.50.14:912][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019675s)
-[2018.06.21-00.50.14:918][655]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.21-00.50.14:921][655]LogPlayLevel: PIE: World Init took: (0.008856s)
-[2018.06.21-00.50.14:921][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.028849s)
-[2018.06.21-00.50.15:010][655]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.06.21-00.50.15:019][655]LogInit: FAudioDevice initialized.
-[2018.06.21-00.50.15:054][655]LogLoad: Game class is 'FunctionalTestGameMode'
-[2018.06.21-00.50.15:058][655]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.20-21.50.15
-[2018.06.21-00.50.15:059][655]LogWorld: Bringing up level for play took: 0.003008
-[2018.06.21-00.50.15:064][655]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.308
-[2018.06.21-00.50.15:065][655]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.21-00.50.37:207][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.21-00.50.37:237][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.21-00.50.38:260][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.21-00.50.40:637][427]LogSlate: Window 'Save Content' being destroyed
-[2018.06.21-00.50.40:658][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Cube" FILE="../../../../GitHub/Movment2D/Content/StarterContent/Blueprints/Cube.uasset" SILENT=true
-[2018.06.21-00.50.40:712][427]LogSavePackage: Save=50.96ms
-[2018.06.21-00.50.40:712][427]LogSavePackage: Moving '../../../../GitHub/Movment2D/Saved/CubeF3F2662744E0106F9F5BE9A36ED4E2B8.tmp' to '../../../../GitHub/Movment2D/Content/StarterContent/Blueprints/Cube.uasset'
-[2018.06.21-00.50.40:715][427]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Movment2D/Content/StarterContent/Blueprints/Cube.uasset
-[2018.06.21-00.50.40:795][427]LogSlate: Window 'Movment2D - Unreal Editor' being destroyed
-[2018.06.21-00.50.40:796][427]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.06.21-00.50.41:006][428]Cmd: QUIT_EDITOR
-[2018.06.21-00.50.42:004][428]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.06.21-00.50.42:013][428]LogExit: Preparing to exit.
-[2018.06.21-00.50.43:019][428]LogDirectoryWatcher: A directory notification for 'G:/GitHub/Movment2D/Content/' was aborted.
-[2018.06.21-00.50.43:072][428]LogExit: Editor shut down
-[2018.06.21-00.50.43:080][428]LogExit: Transaction tracking system shut down
-[2018.06.21-00.50.43:082][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002271bff9c00, Size=240
-[2018.06.21-00.50.43:083][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022726833ba0, Size=72
-[2018.06.21-00.50.43:085][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002276eac2590, Size=4
-[2018.06.21-00.50.43:085][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002276eac2588, Size=4
-[2018.06.21-00.50.43:164][428]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.06.21-00.50.43:164][428]LogDirectoryWatcher: A directory notification for '../../../../GitHub/Movment2D/Content/' was aborted.
-[2018.06.21-00.50.43:164][428]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.06.21-00.50.43:165][428]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.06.21-00.50.43:165][428]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.06.21-00.50.43:165][428]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.06.21-00.50.43:165][428]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.06.21-00.50.43:165][428]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.06.21-00.50.43:600][428]LogExit: Object subsystem successfully closed.
-[2018.06.21-00.50.43:664][428]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.06.21-00.50.43:668][428]LogD3D11RHI: Shutdown
-[2018.06.21-00.50.43:668][428]LogD3D11RHI: CleanupD3DDevice
-[2018.06.21-00.50.43:673][428]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.06.21-00.50.43:874][428]LogModuleManager: Shutting down and abandoning module BlueprintGraph (578)
-[2018.06.21-00.50.43:874][428]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (576)
-[2018.06.21-00.50.43:874][428]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
-[2018.06.21-00.50.43:874][428]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2018.06.21-00.50.43:874][428]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2018.06.21-00.50.43:874][428]LogDirectoryWatcher: A directory notification for 'G:/UE_4.19/FeaturePacks/' was aborted.
-[2018.06.21-00.50.43:879][428]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2018.06.21-00.50.43:879][428]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2018.06.21-00.50.43:879][428]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2018.06.21-00.50.43:879][428]LogDirectoryWatcher: A directory notification for 'G:/GitHub/Movment2D/Content/Collections/' was aborted.
-[2018.06.21-00.50.43:879][428]LogDirectoryWatcher: A directory notification for 'G:/GitHub/Movment2D/Content/Developers/user/Collections/' was aborted.
-[2018.06.21-00.50.43:879][428]LogDirectoryWatcher: A directory notification for 'G:/GitHub/Movment2D/Saved/Collections/' was aborted.
-[2018.06.21-00.50.43:879][428]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2018.06.21-00.50.43:879][428]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2018.06.21-00.50.43:879][428]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2018.06.21-00.50.43:886][428]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2018.06.21-00.50.43:900][428]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2018.06.21-00.50.43:900][428]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2018.06.21-00.50.43:912][428]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2018.06.21-00.50.43:912][428]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2018.06.21-00.50.43:912][428]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2018.06.21-00.50.43:921][428]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2018.06.21-00.50.43:933][428]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2018.06.21-00.50.43:933][428]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2018.06.21-00.50.43:934][428]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2018.06.21-00.50.43:934][428]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2018.06.21-00.50.43:934][428]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2018.06.21-00.50.43:934][428]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2018.06.21-00.50.43:934][428]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2018.06.21-00.50.43:971][428]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2018.06.21-00.50.43:971][428]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2018.06.21-00.50.43:971][428]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2018.06.21-00.50.43:971][428]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2018.06.21-00.50.43:971][428]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2018.06.21-00.50.44:017][428]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2018.06.21-00.50.44:019][428]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2018.06.21-00.50.44:027][428]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2018.06.21-00.50.44:035][428]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2018.06.21-00.50.44:035][428]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2018.06.21-00.50.44:036][428]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2018.06.21-00.50.44:036][428]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2018.06.21-00.50.44:088][428]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2018.06.21-00.50.44:088][428]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2018.06.21-00.50.44:124][428]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2018.06.21-00.50.44:126][428]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2018.06.21-00.50.44:126][428]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2018.06.21-00.50.44:126][428]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2018.06.21-00.50.44:126][428]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2018.06.21-00.50.44:133][428]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2018.06.21-00.50.44:133][428]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2018.06.21-00.50.44:133][428]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2018.06.21-00.50.44:138][428]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2018.06.21-00.50.44:138][428]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2018.06.21-00.50.44:138][428]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2018.06.21-00.50.44:138][428]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2018.06.21-00.50.44:146][428]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2018.06.21-00.50.44:146][428]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2018.06.21-00.50.44:147][428]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2018.06.21-00.50.44:153][428]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2018.06.21-00.50.44:153][428]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2018.06.21-00.50.44:156][428]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
-[2018.06.21-00.50.44:163][428]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module OculusInput (364)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module CableComponent (358)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
-[2018.06.21-00.50.44:406][428]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
-[2018.06.21-00.50.44:407][428]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
-[2018.06.21-00.50.44:407][428]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
-[2018.06.21-00.50.44:407][428]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
-[2018.06.21-00.50.44:418][428]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
-[2018.06.21-00.50.44:418][428]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
-[2018.06.21-00.50.44:418][428]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
-[2018.06.21-00.50.44:418][428]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
-[2018.06.21-00.50.44:426][428]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
-[2018.06.21-00.50.44:426][428]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
-[2018.06.21-00.50.44:438][428]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
-[2018.06.21-00.50.44:438][428]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
-[2018.06.21-00.50.44:438][428]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
-[2018.06.21-00.50.44:438][428]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
-[2018.06.21-00.50.44:438][428]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
-[2018.06.21-00.50.44:438][428]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
-[2018.06.21-00.50.44:479][428]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
-[2018.06.21-00.50.44:484][428]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
-[2018.06.21-00.50.44:484][428]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
-[2018.06.21-00.50.44:484][428]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
-[2018.06.21-00.50.44:484][428]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
-[2018.06.21-00.50.44:484][428]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
-[2018.06.21-00.50.44:484][428]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
-[2018.06.21-00.50.44:484][428]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
-[2018.06.21-00.50.44:484][428]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
-[2018.06.21-00.50.44:484][428]LogModuleManager: Shutting down and abandoning module SourceControl (303)
-[2018.06.21-00.50.44:485][428]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
-[2018.06.21-00.50.44:485][428]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
-[2018.06.21-00.50.44:485][428]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
-[2018.06.21-00.50.44:485][428]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
-[2018.06.21-00.50.44:485][428]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2018.06.21-00.50.44:493][428]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2018.06.21-00.50.44:594][428]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2018.06.21-00.50.44:695][428]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.06.21-00.50.44:728][428]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.06.21-00.50.44:728][428]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.06.21-00.50.44:728][428]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.06.21-00.50.44:728][428]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.06.21-00.50.44:736][428]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.06.21-00.50.44:738][428]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.06.21-00.50.44:738][428]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.06.21-00.50.44:739][428]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.06.21-00.50.44:739][428]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.06.21-00.50.44:739][428]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.06.21-00.50.44:743][428]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.06.21-00.50.44:743][428]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.06.21-00.50.44:743][428]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.06.21-00.50.44:743][428]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.06.21-00.50.45:156][428]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.06.21-00.50.45:156][428]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.06.21-00.50.45:156][428]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.06.21-00.50.45:214][428]LogModuleManager: Shutting down and abandoning module Media (233)
-[2018.06.21-00.50.45:222][428]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2018.06.21-00.50.45:222][428]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2018.06.21-00.50.45:222][428]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2018.06.21-00.50.45:222][428]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2018.06.21-00.50.45:222][428]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.06.21-00.50.45:222][428]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.06.21-00.50.45:222][428]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.06.21-00.50.45:230][428]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.06.21-00.50.45:230][428]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.06.21-00.50.45:230][428]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.06.21-00.50.45:244][428]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.06.21-00.50.45:244][428]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.06.21-00.50.45:244][428]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.06.21-00.50.45:244][428]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.06.21-00.50.45:255][428]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.06.21-00.50.45:272][428]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.06.21-00.50.45:285][428]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.06.21-00.50.45:285][428]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.06.21-00.50.45:308][428]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.06.21-00.50.45:308][428]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.06.21-00.50.45:315][428]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.06.21-00.50.45:315][428]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.06.21-00.50.45:315][428]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.06.21-00.50.45:315][428]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.06.21-00.50.45:315][428]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.06.21-00.50.45:315][428]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.06.21-00.50.45:315][428]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.06.21-00.50.45:315][428]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.06.21-00.50.45:315][428]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.06.21-00.50.45:318][428]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.06.21-00.50.45:318][428]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.06.21-00.50.45:318][428]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.06.21-00.50.45:318][428]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.06.21-00.50.45:318][428]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.06.21-00.50.45:318][428]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.06.21-00.50.45:318][428]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.06.21-00.50.45:333][428]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.06.21-00.50.45:407][428]LogDerivedDataCache: Shutdown
-[2018.06.21-00.50.45:407][428]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.06.21-00.50.45:407][428]LogXGEController: Cleaning working directory: C:/Users/user/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.06.21-00.50.45:407][428]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.06.21-00.50.45:408][428]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.06.21-00.50.45:408][428]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.06.21-00.50.45:414][428]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.06.21-00.50.45:425][428]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.06.21-00.50.45:425][428]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.06.21-00.50.45:439][428]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.06.21-00.50.45:440][428]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.06.21-00.50.45:441][428]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.06.21-00.50.45:442][428]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.06.21-00.50.45:454][428]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.06.21-00.50.45:460][428]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.06.21-00.50.45:460][428]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.06.21-00.50.45:460][428]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC5898BD9-4B5B-BDAA-E3B4-C39A447ECBA9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=61061ab5432028f6bd2e998ea357e549%7C9cc6cc93b89545b0a9322d4a7bbba1ae%7C0b68d45a-1a13-4a1e-ba25-05ac133cd6a0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.06.21-00.50.45:474][428]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.06.21-00.50.45:477][428]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.06.21-00.50.45:477][428]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.06.21-00.50.45:483][428]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.06.21-00.50.45:490][428]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.06.21-00.50.45:496][428]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.06.21-00.50.45:496][428]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.06.21-00.50.45:496][428]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.06.21-00.50.45:504][428]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.06.21-00.50.45:507][428]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.06.21-00.50.45:518][428]LogExit: Exiting.
-[2018.06.21-00.50.45:542][428]Log file closed, 06/20/18 21:50:45
+[2018.06.21-23.26.02:553][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.21-23.26.02:554][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.21-23.26.02:661][  0]LogInit: Computer: ERICK-HIGA-PC
+[2018.06.21-23.26.02:661][  0]LogInit: User: user
+[2018.06.21-23.26.02:661][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.21-23.26.02:661][  0]LogInit: High frequency timer resolution =3.117781 MHz
+[2018.06.21-23.26.02:661][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.06.21-23.26.02:662][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.21-23.26.02:662][  0]LogMemory: Process Physical Memory: 273.19 MB used, 273.19 MB peak
+[2018.06.21-23.26.02:662][  0]LogMemory: Process Virtual Memory: 261.98 MB used, 261.98 MB peak
+[2018.06.21-23.26.02:662][  0]LogMemory: Physical Memory: 6377.45 MB used,  9912.04 MB free, 16289.49 MB total
+[2018.06.21-23.26.02:662][  0]LogMemory: Virtual Memory: 632.13 MB used,  9912.04 MB free, 134217728.00 MB total
+[2018.06.21-23.26.03:113][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.06.21-23.26.03:113][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.06.21-23.26.03:975][  0]LogStreaming: Display: Took  0.848s to EndInitTextLocalization.
+[2018.06.21-23.26.03:998][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.21-23.26.04:505][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.21-23.26.04:505][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.21-23.26.05:206][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.21-23.26.05:253][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 380 Series' (Feature Level 11_0)
+[2018.06.21-23.26.05:253][  0]LogD3D11RHI:       2023/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.06.21-23.26.05:255][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.21-23.26.05:255][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.21-23.26.05:255][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.21-23.26.05:277][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.21-23.26.05:278][  0]LogD3D11RHI:     GPU DeviceId: 0x6939 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.21-23.26.05:278][  0]LogWindows: EnumDisplayDevices:
+[2018.06.21-23.26.05:278][  0]LogWindows:    0. 'AMD Radeon (TM) R9 380 Series' (P:1 D:1)
+[2018.06.21-23.26.05:278][  0]LogWindows:    1. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.06.21-23.26.05:279][  0]LogWindows:    2. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.06.21-23.26.05:279][  0]LogWindows:    3. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.06.21-23.26.05:279][  0]LogWindows:    4. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.06.21-23.26.05:280][  0]LogWindows:    5. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2018.06.21-23.26.05:280][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2018.06.21-23.26.05:280][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 380 Series
+[2018.06.21-23.26.05:280][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.9.1 (internal:22.19.676.0, unified:22.19.676.0)
+[2018.06.21-23.26.05:280][  0]LogD3D11RHI:      Driver Date: 9-5-2017
+[2018.06.21-23.26.05:280][  0]LogRHI: Texture pool is 1416 MB (70% of 2023 MB)
+[2018.06.21-23.26.05:333][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.21-23.26.05:542][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.06.21-23.26.05:591][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../GitHub/Movment2D/Intermediate/Shaders/WorkingDirectory/12200/).
+[2018.06.21-23.26.05:593][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/E94FA4204524F73AE43356BF666FB143/'.
+[2018.06.21-23.26.06:358][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.21-23.26.06:396][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.21-23.26.06:418][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.21-23.26.06:432][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.21-23.26.06:473][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.21-23.26.06:495][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.21-23.26.06:516][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.21-23.26.06:547][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.21-23.26.06:563][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.21-23.26.06:590][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.21-23.26.06:605][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.21-23.26.06:622][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.21-23.26.06:636][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.21-23.26.06:653][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.21-23.26.06:666][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.21-23.26.06:700][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.21-23.26.06:700][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.21-23.26.06:728][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.21-23.26.06:743][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.21-23.26.06:822][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.21-23.26.06:859][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.21-23.26.06:887][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.21-23.26.06:919][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.21-23.26.06:965][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.21-23.26.06:993][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.21-23.26.06:993][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.21-23.26.07:603][  0]LogXGEController: Cleaning working directory: C:/Users/user/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.21-23.26.07:604][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.21-23.26.07:613][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.21-23.26.07:613][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.21-23.26.10:400][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.21-23.26.10:799][  0]LogDerivedDataCache: Loaded boot cache 0.40s 74MB C:/Users/user/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.21-23.26.10:799][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.21-23.26.10:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/Movment2D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.21-23.26.10:799][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.21-23.26.10:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/Movment2D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.21-23.26.10:799][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.21-23.26.10:859][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.21-23.26.10:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.21-23.26.10:872][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.21-23.26.10:872][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.21-23.26.10:931][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.21-23.26.10:965][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.21-23.26.11:062][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.21-23.26.11:062][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.21-23.26.13:689][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2018.06.21-23.26.16:842][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.21-23.26.18:062][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.21-23.26.18:106][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.21-23.26.18:107][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.21-23.26.18:108][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.21-23.26.18:108][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.21-23.26.18:108][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.21-23.26.18:373][  0]LogNetVersion: Movment2D , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3326228246)
+[2018.06.21-23.26.21:905][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.084593 seconds
+[2018.06.21-23.26.21:923][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.21-23.26.21:923][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.06.21-23.26.21:923][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.21-23.26.44:069][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.21-23.26.44:149][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.21-23.26.45:248][  0]SourceControl: Source control is disabled
+[2018.06.21-23.26.45:249][  0]SourceControl: Source control is disabled
+[2018.06.21-23.26.45:339][  0]SourceControl: Source control is disabled
+[2018.06.21-23.26.45:425][  0]SourceControl: Source control is disabled
+[2018.06.21-23.26.47:041][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.21-23.26.47:268][  0]LogOcInput: OculusInput pre-init called
+[2018.06.21-23.26.47:830][  0]LogEngine: Initializing Engine...
+[2018.06.21-23.26.47:858][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.21-23.26.47:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.21-23.26.47:886][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.21-23.26.48:784][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.21-23.26.48:849][  0]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.26.48:879][  0]LogInit: FAudioDevice initialized.
+[2018.06.21-23.26.48:969][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/user/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.21-23.26.48:989][  0]LogInit: Texture streaming: Enabled
+[2018.06.21-23.26.49:091][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.21-23.26.49:292][  0]LogInit: Transaction tracking system initialized
+[2018.06.21-23.26.49:652][  0]BlueprintLog: New page: Editor Load
+[2018.06.21-23.26.50:623][  0]LocalizationService: Localization service is disabled
+[2018.06.21-23.26.51:309][  0]LogConsoleResponse: Display: 
+[2018.06.21-23.26.53:515][  0]LogFileCache: Scanning file cache for directory 'G:/GitHub/Movment2D/Content/' took 0.02s
+[2018.06.21-23.26.53:515][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.21-23.26.53:516][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.21-23.26.53:516][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.21-23.26.53:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.21-23.26.53:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.21-23.26.55:777][  0]SourceControl: Source control is disabled
+[2018.06.21-23.26.55:807][  0]Cmd: MAP LOAD FILE="../../../../GitHub/Movment2D/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.21-23.26.55:843][  0]LightingResults: New page: Lighting Build
+[2018.06.21-23.26.55:924][  0]MapCheck: New page: Map Check
+[2018.06.21-23.26.55:924][  0]LightingResults: New page: Lighting Build
+[2018.06.21-23.26.56:364][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019069bca500, Size=240, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.26.56:416][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019069bca500, Size=240
+[2018.06.21-23.26.56:417][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019069bca500, Size=240, Default__Cube_C Function /Engine/Transient.REINST_Cube_C_3:ExecuteUbergraph_Cube
+[2018.06.21-23.26.56:443][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001904b9ddc00, Size=240, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.26.56:921][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001904b6189f0, Size=72, Default__Minimal_Default_C Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default
+[2018.06.21-23.26.56:928][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001904b6189f0, Size=72
+[2018.06.21-23.26.56:928][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001904b57c3b0, Size=72, Default__Minimal_Default_C Function /Engine/Transient.REINST_Minimal_Default_C_7:ExecuteUbergraph_Minimal_Default
+[2018.06.21-23.26.56:934][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001904c263ab0, Size=72, Default__Minimal_Default_C Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default
+[2018.06.21-23.26.57:780][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.26.58:153][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.21-23.26.58:233][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019069bca500, Size=240
+[2018.06.21-23.26.58:233][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001904b57c3b0, Size=72
+[2018.06.21-23.26.58:274][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.21-23.26.58:347][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.711ms to complete.
+[2018.06.21-23.26.58:347][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.553
+[2018.06.21-23.26.59:372][  0]LogCollectionManager: Loaded 0 collections in 0.006159 seconds
+[2018.06.21-23.26.59:541][  0]LogFileCache: Scanning file cache for directory 'G:/GitHub/Movment2D/Saved/Collections/' took 0.01s
+[2018.06.21-23.26.59:542][  0]LogFileCache: Scanning file cache for directory 'G:/GitHub/Movment2D/Content/Developers/user/Collections/' took 0.01s
+[2018.06.21-23.26.59:542][  0]LogFileCache: Scanning file cache for directory 'G:/GitHub/Movment2D/Content/Collections/' took 0.01s
+[2018.06.21-23.26.59:542][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.21-23.26.59:571][  0]LogContentBrowser: Native class hierarchy populated in 0.0258 seconds. Added 2452 classes and 558 folders.
+[2018.06.21-23.26.59:656][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.21-23.27.00:575][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.06.21-23.27.00:625][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.06.21-23.27.00:948][  0]LogSlate: Took 0.008947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.21-23.27.00:965][  0]LogSlate: Took 0.013297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.21-23.27.01:019][  0]LogSlate: Took 0.008731 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.21-23.27.01:439][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.06.21-23.27.02:016][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.06.21-23.27.02:017][  0]LogLoad: (Engine Initialization) Total time: 86.90 seconds
+[2018.06.21-23.27.02:017][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.21-23.27.02:477][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.21-23.27.02:602][  0]LogSlate: Took 0.015097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.21-23.27.03:412][  3]LogAssetRegistry: Asset discovery search completed in 49.7448 seconds
+[2018.06.21-23.27.03:415][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.21-23.27.03:415][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.06.21-23.27.05:580][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.27.05:684][163]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.27.05:714][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.27.05:714][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.27.05:750][163]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:27:05 PM)
+[2018.06.21-23.27.05:750][163]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.27.05:785][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034604s)
+[2018.06.21-23.27.05:787][163]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.27.05:788][163]LogPlayLevel: PIE: World Init took: (0.002269s)
+[2018.06.21-23.27.05:788][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.037393s)
+[2018.06.21-23.27.05:840][163]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.27.05:853][163]LogInit: FAudioDevice initialized.
+[2018.06.21-23.27.05:941][163]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.27.05:967][163]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.27.05
+[2018.06.21-23.27.05:969][163]LogWorld: Bringing up level for play took: 0.012840
+[2018.06.21-23.27.06:016][163]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.06.21-23.27.06:029][163]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.446
+[2018.06.21-23.27.06:030][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.27.08:497][419]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.27.08:582][419]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.28.16:739][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.28.16:839][565]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.28.16:852][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.28.16:852][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.28.16:852][565]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:28:16 PM)
+[2018.06.21-23.28.16:852][565]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.28.16:856][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003231s)
+[2018.06.21-23.28.16:856][565]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.28.16:857][565]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2018.06.21-23.28.16:857][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004258s)
+[2018.06.21-23.28.16:882][565]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.28.16:894][565]LogInit: FAudioDevice initialized.
+[2018.06.21-23.28.16:933][565]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.28.16:934][565]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.28.16
+[2018.06.21-23.28.16:934][565]LogWorld: Bringing up level for play took: 0.000820
+[2018.06.21-23.28.16:935][565]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.46
+[2018.06.21-23.28.16:935][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.28.28:903][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.28.28:935][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.28.34:185][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.29.31:835][626]LogSlate: Took 0.000883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.21-23.29.32:460][626]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
+[2018.06.21-23.29.33:006][626]LogUObjectGlobals: Created PersistentFrame Addr=0x000001901a922070, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.21-23.29.33:008][626]LogUObjectGlobals: Created PersistentFrame Addr=0x000001901a922068, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.21-23.29.34:006][626]LogSlate: Took 0.005668 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.21-23.29.34:577][627]LogSlate: Took 0.009918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.21-23.30.02:424][  1]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f361df8, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.30.16:609][310]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001905f361df8, Size=4
+[2018.06.21-23.30.16:609][310]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a06c8, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_23:ExecuteUbergraph_Cube
+[2018.06.21-23.30.16:611][310]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a2888, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.30.18:283][449]BlueprintLog: New page: Compile Cube
+[2018.06.21-23.30.18:292][449]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a2888, Size=4
+[2018.06.21-23.30.18:292][449]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a2888, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_25:ExecuteUbergraph_Cube
+[2018.06.21-23.30.18:302][449]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001904b9ddc00, Size=240
+[2018.06.21-23.30.18:302][449]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f38e100, Size=240, Default__Cube_C Function /Engine/Transient.REINST_Cube_C_27:ExecuteUbergraph_Cube
+[2018.06.21-23.30.18:306][449]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f2fb500, Size=240, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.30.18:646][449]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a2888, Size=4
+[2018.06.21-23.30.45:327][979]BlueprintLog: New page: Compile Cube
+[2018.06.21-23.30.45:346][979]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001905f2fb500, Size=240
+[2018.06.21-23.30.45:346][979]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f3eaa00, Size=240, Cube_C_11 Function /Engine/Transient.REINST_Cube_C_31:ExecuteUbergraph_Cube
+[2018.06.21-23.30.45:351][979]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190256b7700, Size=248, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.30.51:836][483]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.30.51:857][483]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.30.51:857][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.30.51:857][483]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:30:51 PM)
+[2018.06.21-23.30.51:857][483]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.30.51:861][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003171s)
+[2018.06.21-23.30.51:861][483]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.30.51:861][483]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2018.06.21-23.30.51:862][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004216s)
+[2018.06.21-23.30.51:880][483]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001905f3eaa00, Size=240
+[2018.06.21-23.30.51:905][483]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.30.51:914][483]LogInit: FAudioDevice initialized.
+[2018.06.21-23.30.51:953][483]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.30.51:955][483]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.30.51
+[2018.06.21-23.30.51:955][483]LogWorld: Bringing up level for play took: 0.000854
+[2018.06.21-23.30.51:957][483]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.518
+[2018.06.21-23.30.51:957][483]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.03:621][680]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.03:658][680]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.05:251][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.31.05:340][839]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019007298cc8, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.31.07:913][ 44]LogEditorViewport: Clicking Background
+[2018.06.21-23.31.08:775][130]LogEditorViewport: Clicking on Actor (LMB): Cube_C (Cube)
+[2018.06.21-23.31.10:718][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.31.33:160][142]BlueprintLog: New page: Compile Cube
+[2018.06.21-23.31.33:170][142]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019007298cc8, Size=4
+[2018.06.21-23.31.33:170][142]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a1100, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_35:ExecuteUbergraph_Cube
+[2018.06.21-23.31.33:180][142]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190256b7700, Size=248
+[2018.06.21-23.31.33:180][142]LogUObjectGlobals: Created PersistentFrame Addr=0x000001907c124a00, Size=248, Cube_C_19 Function /Engine/Transient.REINST_Cube_C_37:ExecuteUbergraph_Cube
+[2018.06.21-23.31.33:184][142]LogUObjectGlobals: Created PersistentFrame Addr=0x000001907c899100, Size=248, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.31.33:571][142]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a1100, Size=4
+[2018.06.21-23.31.38:914][578]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.31.38:934][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.38:934][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.31.38:935][578]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:31:38 PM)
+[2018.06.21-23.31.38:935][578]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.31.38:938][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003206s)
+[2018.06.21-23.31.38:939][578]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.31.38:939][578]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2018.06.21-23.31.38:939][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004102s)
+[2018.06.21-23.31.38:956][578]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001907c124a00, Size=248
+[2018.06.21-23.31.38:966][578]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.31.38:973][578]LogInit: FAudioDevice initialized.
+[2018.06.21-23.31.39:004][578]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.31.39:005][578]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.31.39
+[2018.06.21-23.31.39:006][578]LogWorld: Bringing up level for play took: 0.000813
+[2018.06.21-23.31.39:006][578]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.532
+[2018.06.21-23.31.39:007][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.44:866][165]Set new viewmode: ShaderComplexity
+[2018.06.21-23.31.46:076][283]Set new viewmode: ShaderComplexity
+[2018.06.21-23.31.47:110][390]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.47:150][390]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.49:688][641]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.31.49:700][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.49:700][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.31.49:701][641]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:31:49 PM)
+[2018.06.21-23.31.49:701][641]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.31.49:703][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002753s)
+[2018.06.21-23.31.49:704][641]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.31.49:704][641]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2018.06.21-23.31.49:704][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003677s)
+[2018.06.21-23.31.49:736][641]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.31.49:745][641]LogInit: FAudioDevice initialized.
+[2018.06.21-23.31.49:746][641]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.21-23.31.49:834][641]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.31.49:835][641]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.31.49
+[2018.06.21-23.31.49:836][641]LogWorld: Bringing up level for play took: 0.000866
+[2018.06.21-23.31.49:836][641]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.639
+[2018.06.21-23.31.49:837][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.54:406][998]LogEditorViewport: Clicking on Actor (LMB): Cube_C (Cube)
+[2018.06.21-23.31.57:205][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.31.57:287][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.31.57:333][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.31:541][105]BlueprintLog: New page: Compile Cube
+[2018.06.21-23.33.31:563][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001907c899100, Size=248
+[2018.06.21-23.33.31:563][105]LogUObjectGlobals: Created PersistentFrame Addr=0x000001907d01ad00, Size=248, Cube_C_25 Function /Engine/Transient.REINST_Cube_C_41:ExecuteUbergraph_Cube
+[2018.06.21-23.33.31:568][105]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019089a95e40, Size=312, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.33.35:199][450]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.33.35:222][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.35:222][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.33.35:222][450]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:33:35 PM)
+[2018.06.21-23.33.35:222][450]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.33.35:225][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002891s)
+[2018.06.21-23.33.35:225][450]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.33.35:226][450]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2018.06.21-23.33.35:226][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003771s)
+[2018.06.21-23.33.35:243][450]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001907d01ad00, Size=248
+[2018.06.21-23.33.35:247][450]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.33.35:256][450]LogInit: FAudioDevice initialized.
+[2018.06.21-23.33.35:284][450]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.33.35:286][450]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.33.35
+[2018.06.21-23.33.35:286][450]LogWorld: Bringing up level for play took: 0.000802
+[2018.06.21-23.33.35:287][450]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.812
+[2018.06.21-23.33.35:287][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.38:023][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.38:058][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.40:500][983]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.21-23.33.44:380][314]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.33.44:392][314]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.44:393][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.33.44:393][314]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:33:44 PM)
+[2018.06.21-23.33.44:393][314]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.33.44:396][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002945s)
+[2018.06.21-23.33.44:396][314]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.33.44:397][314]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2018.06.21-23.33.44:397][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003748s)
+[2018.06.21-23.33.44:418][314]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.33.44:426][314]LogInit: FAudioDevice initialized.
+[2018.06.21-23.33.44:462][314]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.33.44:463][314]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.33.44
+[2018.06.21-23.33.44:463][314]LogWorld: Bringing up level for play took: 0.000900
+[2018.06.21-23.33.44:464][314]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.011
+[2018.06.21-23.33.44:464][314]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.49:028][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.49:068][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.49:912][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.33.50:837][975]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.33.50:849][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.33.50:849][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.33.50:849][975]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:33:50 PM)
+[2018.06.21-23.33.50:850][975]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.33.50:853][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003193s)
+[2018.06.21-23.33.50:853][975]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.33.50:854][975]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2018.06.21-23.33.50:854][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004041s)
+[2018.06.21-23.33.50:882][975]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.33.50:891][975]LogInit: FAudioDevice initialized.
+[2018.06.21-23.33.50:960][975]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.33.50:962][975]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.33.50
+[2018.06.21-23.33.50:962][975]LogWorld: Bringing up level for play took: 0.000897
+[2018.06.21-23.33.50:963][975]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.488
+[2018.06.21-23.33.50:963][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.34.02:345][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.34.02:387][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.34.05:189][574]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.21-23.34.08:641][890]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.08:641][890]LogEditorTransaction: Undo Move Nodes
+[2018.06.21-23.34.08:644][890]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a18e8, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.08:817][898]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.08:817][898]LogEditorTransaction: Undo Move Node
+[2018.06.21-23.34.08:818][898]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a18e8, Size=4
+[2018.06.21-23.34.08:818][898]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a18e8, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_45:ExecuteUbergraph_Cube
+[2018.06.21-23.34.08:820][898]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a0ba8, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.08:990][903]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.08:990][903]LogEditorTransaction: Undo Move Node
+[2018.06.21-23.34.08:990][903]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a0ba8, Size=4
+[2018.06.21-23.34.08:990][903]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a0ba8, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_47:ExecuteUbergraph_Cube
+[2018.06.21-23.34.08:993][903]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a2b40, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.09:142][907]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.09:142][907]LogEditorTransaction: Undo Change Number Pin Value
+[2018.06.21-23.34.09:142][907]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a2b40, Size=4
+[2018.06.21-23.34.09:143][907]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a2b40, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_49:ExecuteUbergraph_Cube
+[2018.06.21-23.34.09:145][907]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a0a40, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.09:290][913]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.09:291][913]LogEditorTransaction: Undo Move Node
+[2018.06.21-23.34.09:291][913]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a0a40, Size=4
+[2018.06.21-23.34.09:291][913]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a0a40, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_51:ExecuteUbergraph_Cube
+[2018.06.21-23.34.09:293][913]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a0b48, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.09:456][921]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.09:456][921]LogEditorTransaction: Undo Create Pin Link
+[2018.06.21-23.34.09:456][921]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a0b48, Size=4
+[2018.06.21-23.34.09:456][921]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a0b48, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_53:ExecuteUbergraph_Cube
+[2018.06.21-23.34.09:459][921]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a14b8, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.09:926][956]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.09:927][956]LogEditorTransaction: Undo Add Node
+[2018.06.21-23.34.09:927][956]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a14b8, Size=4
+[2018.06.21-23.34.09:927][956]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a14b8, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_55:ExecuteUbergraph_Cube
+[2018.06.21-23.34.09:930][956]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a0498, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.10:136][968]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.10:136][968]LogEditorTransaction: Undo Delete current selection
+[2018.06.21-23.34.10:136][968]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a0498, Size=4
+[2018.06.21-23.34.10:136][968]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f4420, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_57:ExecuteUbergraph_Cube
+[2018.06.21-23.34.10:139][968]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f4db8, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.10:370][982]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.10:370][982]LogEditorTransaction: Undo Move Nodes
+[2018.06.21-23.34.10:370][982]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f4db8, Size=4
+[2018.06.21-23.34.10:370][982]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a09c0, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_59:ExecuteUbergraph_Cube
+[2018.06.21-23.34.10:373][982]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a2818, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.10:556][992]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.10:556][992]LogEditorTransaction: Undo Paste clipboard contents
+[2018.06.21-23.34.10:557][992]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a2818, Size=4
+[2018.06.21-23.34.10:557][992]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f4f68, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_61:ExecuteUbergraph_Cube
+[2018.06.21-23.34.10:559][992]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f7750, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.10:797][  8]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.10:797][  8]LogEditorTransaction: Undo Move Node
+[2018.06.21-23.34.10:798][  8]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f7750, Size=4
+[2018.06.21-23.34.10:798][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a0b68, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_63:ExecuteUbergraph_Cube
+[2018.06.21-23.34.10:800][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a3258, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.11:338][ 52]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.11:338][ 52]LogEditorTransaction: Undo Move Node
+[2018.06.21-23.34.11:338][ 52]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a3258, Size=4
+[2018.06.21-23.34.11:338][ 52]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f4778, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_65:ExecuteUbergraph_Cube
+[2018.06.21-23.34.11:341][ 52]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f4928, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.11:600][ 70]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.11:600][ 70]LogEditorTransaction: Undo Create Pin Link
+[2018.06.21-23.34.11:600][ 70]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f4928, Size=4
+[2018.06.21-23.34.11:600][ 70]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a3140, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_67:ExecuteUbergraph_Cube
+[2018.06.21-23.34.11:603][ 70]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a0f20, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.11:874][ 89]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.11:874][ 89]LogEditorTransaction: Undo Move Node
+[2018.06.21-23.34.11:874][ 89]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a0f20, Size=4
+[2018.06.21-23.34.11:874][ 89]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f5108, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_69:ExecuteUbergraph_Cube
+[2018.06.21-23.34.11:876][ 89]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f4cd0, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.12:208][114]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.12:208][114]LogEditorTransaction: Undo Move Node
+[2018.06.21-23.34.12:209][114]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f4cd0, Size=4
+[2018.06.21-23.34.12:209][114]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a3df0, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_71:ExecuteUbergraph_Cube
+[2018.06.21-23.34.12:211][114]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a3070, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.12:563][141]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.12:563][141]LogEditorTransaction: Undo Break Pin Links
+[2018.06.21-23.34.12:564][141]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a3070, Size=4
+[2018.06.21-23.34.12:564][141]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f4de8, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_73:ExecuteUbergraph_Cube
+[2018.06.21-23.34.12:566][141]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190073f4bd0, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.12:791][156]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.12:791][156]LogEditorTransaction: Undo Break Pin Links
+[2018.06.21-23.34.12:791][156]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f4bd0, Size=4
+[2018.06.21-23.34.12:792][156]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a1e88, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_75:ExecuteUbergraph_Cube
+[2018.06.21-23.34.12:794][156]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a2ee8, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.13:039][173]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.13:039][173]LogEditorTransaction: Undo Move Nodes
+[2018.06.21-23.34.13:040][173]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a2ee8, Size=4
+[2018.06.21-23.34.13:040][173]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a2ee8, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_77:ExecuteUbergraph_Cube
+[2018.06.21-23.34.13:042][173]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a3ec8, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.13:248][186]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.13:248][186]LogEditorTransaction: Undo Move Node
+[2018.06.21-23.34.13:249][186]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a3ec8, Size=4
+[2018.06.21-23.34.13:249][186]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019027dbede0, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_79:ExecuteUbergraph_Cube
+[2018.06.21-23.34.13:252][186]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019005f10ac8, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.34.13:716][223]Cmd: TRANSACTION UNDO
+[2018.06.21-23.34.13:716][223]LogEditorTransaction: Undo Add Node
+[2018.06.21-23.34.13:717][223]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019005f10ac8, Size=4
+[2018.06.21-23.34.13:717][223]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019005f10ac8, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_81:ExecuteUbergraph_Cube
+[2018.06.21-23.34.13:719][223]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019005f13990, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.35.20:239][359]BlueprintLog: New page: Compile Cube
+[2018.06.21-23.35.20:248][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019005f13990, Size=4
+[2018.06.21-23.35.20:248][359]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019027dbd048, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_83:ExecuteUbergraph_Cube
+[2018.06.21-23.35.20:257][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019089a95e40, Size=312
+[2018.06.21-23.35.20:257][359]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905fddb240, Size=312, Cube_C_71 Function /Engine/Transient.REINST_Cube_C_85:ExecuteUbergraph_Cube
+[2018.06.21-23.35.20:261][359]LogUObjectGlobals: Created PersistentFrame Addr=0x000001902179ae00, Size=240, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a1e88, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f4de8, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a3df0, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f5108, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a3140, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f4778, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a0b68, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f4f68, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a09c0, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190073f4420, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a14b8, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a0b48, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a0a40, Size=4
+[2018.06.21-23.35.20:574][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a2b40, Size=4
+[2018.06.21-23.35.20:575][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a0ba8, Size=4
+[2018.06.21-23.35.20:575][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a18e8, Size=4
+[2018.06.21-23.35.20:575][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a2ee8, Size=4
+[2018.06.21-23.35.20:575][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019027dbede0, Size=4
+[2018.06.21-23.35.20:575][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019005f10ac8, Size=4
+[2018.06.21-23.35.20:575][359]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019027dbd048, Size=4
+[2018.06.21-23.38.03:589][169]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001905fddb240, Size=312
+[2018.06.21-23.38.03:816][169]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001904c263ab0, Size=72
+[2018.06.21-23.38.03:816][169]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f861da0, Size=72, Default__Minimal_Default_C Function /Engine/Transient.REINST_Minimal_Default_C_89:ExecuteUbergraph_Minimal_Default
+[2018.06.21-23.38.03:819][169]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f862d40, Size=72, Default__Minimal_Default_C Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default
+[2018.06.21-23.38.04:050][169]LogSavePackage: Save=245.93ms
+[2018.06.21-23.38.04:050][169]LogSavePackage: Moving '../../../../GitHub/Movment2D/Saved/Minimal_Default_Auto14AAEF7E5427CB42A94956D981DB952A4.tmp' to '../../../../GitHub/Movment2D/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2018.06.21-23.38.04:065][169]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Movment2D/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2018.06.21-23.38.04:085][169]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.524
+[2018.06.21-23.38.04:085][169]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.524
+[2018.06.21-23.38.04:090][169]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/Cube] ([1] browsable assets)...
+[2018.06.21-23.38.04:111][169]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/Cube.Cube]
+[2018.06.21-23.38.04:111][169]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Cube]
+[2018.06.21-23.38.04:111][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/Cube" FILE="../../../../GitHub/Movment2D/Saved/Autosaves/Game/StarterContent/Blueprints/Cube_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.06.21-23.38.04:161][169]LogSavePackage: Save=45.78ms
+[2018.06.21-23.38.04:161][169]LogSavePackage: Moving '../../../../GitHub/Movment2D/Saved/Cube_Auto19264061B428E3CEE8A214DA46C5F4C42.tmp' to '../../../../GitHub/Movment2D/Saved/Autosaves/Game/StarterContent/Blueprints/Cube_Auto1.uasset'
+[2018.06.21-23.38.04:162][169]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Movment2D/Saved/Autosaves/Game/StarterContent/Blueprints/Cube_Auto1.uasset
+[2018.06.21-23.38.04:162][169]LogFileHelpers: Auto-saving content packages took 0.073
+[2018.06.21-23.56.05:374][834]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019005f12088, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.56.25:236][ 63]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019005f12088, Size=4
+[2018.06.21-23.56.25:236][ 63]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190898321b0, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_93:ExecuteUbergraph_Cube
+[2018.06.21-23.56.25:239][ 63]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190898323d0, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.56.35:037][960]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190898323d0, Size=4
+[2018.06.21-23.56.35:037][960]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f360e80, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_95:ExecuteUbergraph_Cube
+[2018.06.21-23.56.35:039][960]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f363a00, Size=4, Default__SKEL_Cube_C Function /Game/StarterContent/Blueprints/Cube.SKEL_Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.56.55:848][163]BlueprintLog: New page: Compile Cube
+[2018.06.21-23.56.55:858][163]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001905f363a00, Size=4
+[2018.06.21-23.56.55:858][163]LogUObjectGlobals: Created PersistentFrame Addr=0x00000190263a32c8, Size=4, Default__SKEL_Cube_C Function /Engine/Transient.REINST_SKEL_Cube_C_97:ExecuteUbergraph_Cube
+[2018.06.21-23.56.55:868][163]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001902179ae00, Size=240
+[2018.06.21-23.56.55:868][163]LogUObjectGlobals: Created PersistentFrame Addr=0x000001907c89ac00, Size=240, Cube_C_83 Function /Engine/Transient.REINST_Cube_C_99:ExecuteUbergraph_Cube
+[2018.06.21-23.56.55:872][163]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f2fb800, Size=240, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.56.56:168][163]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001905f861da0, Size=72
+[2018.06.21-23.56.56:168][163]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190263a32c8, Size=4
+[2018.06.21-23.57.15:686][862]BlueprintLog: New page: Compile Cube
+[2018.06.21-23.57.15:705][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001905f2fb800, Size=240
+[2018.06.21-23.57.15:705][862]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019098dd0c00, Size=240, Cube_C_89 Function /Engine/Transient.REINST_Cube_C_103:ExecuteUbergraph_Cube
+[2018.06.21-23.57.15:710][862]LogUObjectGlobals: Created PersistentFrame Addr=0x000001907c9d4680, Size=272, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.57.18:193][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.57.18:217][ 88]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.57.18:217][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.57.18:217][ 88]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:57:18 PM)
+[2018.06.21-23.57.18:217][ 88]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.57.18:221][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003942s)
+[2018.06.21-23.57.18:222][ 88]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.57.18:222][ 88]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2018.06.21-23.57.18:222][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004924s)
+[2018.06.21-23.57.18:240][ 88]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019098dd0c00, Size=240
+[2018.06.21-23.57.18:244][ 88]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.57.18:254][ 88]LogInit: FAudioDevice initialized.
+[2018.06.21-23.57.18:285][ 88]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.57.18:286][ 88]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.57.18
+[2018.06.21-23.57.18:287][ 88]LogWorld: Bringing up level for play took: 0.001042
+[2018.06.21-23.57.18:288][ 88]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.071
+[2018.06.21-23.57.18:288][ 88]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.57.23:009][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.57.23:043][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.57.24:051][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.57.53:723][544]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.57.53:736][544]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.57.53:736][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.57.53:736][544]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:57:53 PM)
+[2018.06.21-23.57.53:736][544]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.57.53:739][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003391s)
+[2018.06.21-23.57.53:740][544]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.57.53:740][544]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2018.06.21-23.57.53:740][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004173s)
+[2018.06.21-23.57.53:762][544]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.57.53:769][544]LogInit: FAudioDevice initialized.
+[2018.06.21-23.57.53:806][544]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.57.53:809][544]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.57.53
+[2018.06.21-23.57.53:810][544]LogWorld: Bringing up level for play took: 0.001967
+[2018.06.21-23.57.53:812][544]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.595
+[2018.06.21-23.57.53:812][544]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.57.58:588][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.57.58:628][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.58.01:022][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.58.12:810][348]BlueprintLog: New page: Compile Cube
+[2018.06.21-23.58.12:829][348]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001907c9d4680, Size=272
+[2018.06.21-23.58.12:829][348]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019025a48a40, Size=272, Cube_C_95 Function /Engine/Transient.REINST_Cube_C_107:ExecuteUbergraph_Cube
+[2018.06.21-23.58.12:834][348]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019089a95440, Size=272, Default__Cube_C Function /Game/StarterContent/Blueprints/Cube.Cube_C:ExecuteUbergraph_Cube
+[2018.06.21-23.58.13:675][393]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.58.13:699][393]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.58.13:699][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.58.13:699][393]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:58:13 PM)
+[2018.06.21-23.58.13:699][393]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.58.13:702][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002840s)
+[2018.06.21-23.58.13:703][393]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.58.13:703][393]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2018.06.21-23.58.13:703][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003769s)
+[2018.06.21-23.58.13:721][393]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019025a48a40, Size=272
+[2018.06.21-23.58.13:725][393]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.58.13:733][393]LogInit: FAudioDevice initialized.
+[2018.06.21-23.58.13:766][393]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.58.13:767][393]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.58.13
+[2018.06.21-23.58.13:767][393]LogWorld: Bringing up level for play took: 0.000855
+[2018.06.21-23.58.13:768][393]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.551
+[2018.06.21-23.58.13:768][393]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.58.18:173][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.58.18:213][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.58.19:136][896]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.21-23.58.20:085][  6]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.21-23.58.20:097][  6]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.58.20:098][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.21-23.58.20:098][  6]PIE: New page: PIE session: Minimal_Default (Jun 21, 2018, 5:58:20 PM)
+[2018.06.21-23.58.20:098][  6]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.06.21-23.58.20:101][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002795s)
+[2018.06.21-23.58.20:101][  6]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.06.21-23.58.20:102][  6]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2018.06.21-23.58.20:102][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003715s)
+[2018.06.21-23.58.20:133][  6]LogInit: XAudio2 using '4 - M2380D (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.21-23.58.20:143][  6]LogInit: FAudioDevice initialized.
+[2018.06.21-23.58.20:190][  6]LogLoad: Game class is 'FunctionalTestGameMode'
+[2018.06.21-23.58.20:191][  6]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.21-20.58.20
+[2018.06.21-23.58.20:191][  6]LogWorld: Bringing up level for play took: 0.000907
+[2018.06.21-23.58.20:192][  6]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.975
+[2018.06.21-23.58.20:192][  6]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.58.46:254][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.58.46:292][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.06.21-23.58.51:449][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.21-23.58.54:548][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default" FILE="../../../../GitHub/Movment2D/Content/StarterContent/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.21-23.58.54:585][608]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001905f862d40, Size=72
+[2018.06.21-23.58.54:585][608]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f4d4a40, Size=72, Default__Minimal_Default_C Function /Engine/Transient.REINST_Minimal_Default_C_111:ExecuteUbergraph_Minimal_Default
+[2018.06.21-23.58.54:587][608]LogUObjectGlobals: Created PersistentFrame Addr=0x000001905f4d5a30, Size=72, Default__Minimal_Default_C Function /Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C:ExecuteUbergraph_Minimal_Default
+[2018.06.21-23.58.54:698][608]LogSavePackage: Save=118.52ms
+[2018.06.21-23.58.54:698][608]LogSavePackage: Moving '../../../../GitHub/Movment2D/Saved/Minimal_Default65868D1C4318DA9F46E2E380100CD2B8.tmp' to '../../../../GitHub/Movment2D/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.06.21-23.58.54:700][608]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Movment2D/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.06.21-23.58.54:722][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../GitHub/Movment2D/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2018.06.21-23.58.54:781][608]LogSavePackage: Save=53.63ms
+[2018.06.21-23.58.54:781][608]LogSavePackage: Moving '../../../../GitHub/Movment2D/Saved/Minimal_Default_BuiltData5A49595F4204EF968F05D998CB3F582A.tmp' to '../../../../GitHub/Movment2D/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.06.21-23.58.54:782][608]LogSavePackage: Display: Finished SavePackage ../../../../GitHub/Movment2D/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
